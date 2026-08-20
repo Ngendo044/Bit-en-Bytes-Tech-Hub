@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Bit & Bytes Tech Hub </title>
+<style>
+body {
+    height: 100vh;
+    backgroun: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #396afc;
+    background: linear-gradient(to right, #005c97, #363795);
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.container form .descr{
+    font-size: 20px;
+    font-weight: 500;
+    color: #e8e8e8;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.input, textarea {
+    font-size: 100px;
+    padding: 0.7em;
+    outline: none;
+    color: #e8e8e8;
+    border: none;
+    border-bottom: 2px solid #e8e8e8;
+    background: transparent;
+    border-radius: none;
+    width: 100%;
+    resize: none;
+}
+input label{
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    color: #e8e8e8;
+    padding: 0.7em;
+    margin-left: 0.1em;
+    pointer-events: none;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+}
+    </style>
+    </head>
+    <body>
+        <nav>
+
+            <img src="Logo.png" alt="Bit & Bytes Tech Hub Logo">
+
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <a href="#">About</a>
+            <a href="#"> Contact</a>
+
+        </nav>
+
+        <div class="container">
+        <div class="hero">
+        <h1> Bit & Bytes Tech Hub</h1>
+        <p class="tagline">
+            Professional IT Solutions for Homes and Businesses
+        </p>
+        <p class="tagline">
+           Networking • CCTV • Computer Repair • Web Development 
+        </p>
+    
+        <button> Get Started</button>
+        </div>
+        
+        <div class="image-gallery">
+            <img src="Network Switch.png" alt="Network Switch Image" width="250">
+            <img src="CCTV Camera.png" alt="CCTV Camera Image" width="250">
+            <img src="Printer.png" alt="Printer Image" width="250">
+            <img src="Desktop Computer.png" alt="Desktop Computer" width="250">
+         </div>   
+         <h2>Our Services</h2>
+        <div class="services">
+        <div class="card">
+            <h3>Networking</h3>
+            <p>Office and Home Networking Solutions</p>
+        </div>
+        <div class="card">
+            <h3>CCTV</h3>
+            <p>Professional CCTV Installation</p>
+        </div>
+        <div class="card">
+            <h3>Printing</h3>
+            <p>Printing and Scanning Services</p>
+        </div>
+        <div class="card">
+            <h3>Software</h3>
+            <p>Windows Installation and Repair</p>
+        </div>
+        <div class="card">
+            <h3>Website Development</h3>
+            <p>Get more customers with a fast & modern website</p>
+        </div>
+        </div>
+        
+        <h2>Pricing</h2>
+        <table border="1">
+            <tr>
+                <th>Service Description</th>
+                <th>Price (Kes)</th>
+            </tr>
+            <tr>
+                <td>KRA PIN Registration</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>KRA Returns</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Wi-Fi Configuration</td>
+                <td>Contact us</td>
+            </tr>
+            <tr>
+                <td>CCTV Installation</td>
+                <td>Contact Us</td>
+            </tr>
+        </table>
+       
+        <h2> Contact Us</h2>
+        <form>
+        <label>Name:</label><br>
+        <input type="text">
+
+        <br><br>
+
+        <label>Email:</label><br>
+        <input type="email">
+
+        <br><br>
+
+        <label>Phone:</label><br>
+        <input type="number">
+
+        <br><br>
+
+        <button>submit</button>
+
+        </form>
+        <br><br>
+        <h2>Location</h2>
+        <P> 
+            Nairobi, KENYA
+            <!This section ends here>
+        </P>
+<!-- Useful Links Section -->
+
+<h2>Useful Links</h2>
+<a href="https://www.google.com" target="_blank">
+Visit Google
+</a>
+<br><br>
+<a href="mailto:ngendodan@gmail.com">
+Send us an Email
+</a>
+<br><br>
+<a href="https://wa.me/254750290098?text=Hello%20Bit%20%26%20Bytes%20Tech%20Hub,%20I%20am%20interested%20in%20your%20services" class="whatsapp" target="_blank">
+    💬
+</a>
+<script src="script.js"></script>
+</body>
+
+</html>
