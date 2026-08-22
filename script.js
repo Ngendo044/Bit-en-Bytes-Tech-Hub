@@ -73,7 +73,7 @@ if (orderButtons.length > 0) {
         button.addEventListener("click", function() {
             const service = button.getAttribute("data-service");
             const message = `Hello Bit & Bytes Tech Hub, I'm interested in your ${service} service.`;
-            const url = `https://wa.me/254750290098?text=${encodeURIComponent(message)}`;
+            const url = `https://wa.me/254115626279?text=${encodeURIComponent(message)}`;
             window.open(url, "_blank");
         });
     });
